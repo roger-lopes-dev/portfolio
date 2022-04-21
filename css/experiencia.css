@@ -48,7 +48,8 @@
   text-align: right;
 }
 
-.projeto-titulo {
+.projeto-titulo,
+.projeto-subtitulo {
   font-size: 1.125rem;
   line-height: 1.1;
   font-weight: bold;
@@ -91,10 +92,25 @@
     order: 1;
     text-align: left;
   }
+  .projeto-ano::before {
+    content: "Ano - ";
+  }
 }
 
 @media (max-width: 400px) {
   .projeto {
     grid-template-columns: 1fr;
+  }
+  .projeto-texto {
+    order: 1;
+  }
+  .projeto-subtitulo {
+    order: 2;
+  }
+  .projeto-habilidades {
+    order: 3;
+  }
+  .projeto-ano {
+    order: 4;
   }
 }
