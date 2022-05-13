@@ -48,7 +48,18 @@
   text-align: right;
 }
 
-.projeto-titulo,
+.projeto-titulo {
+  color: #141414;
+  text-decoration: none;
+  font-size: 1rem;
+  line-height: 1.1;
+  font-weight: bold;
+}
+
+.projeto-titulo:hover {
+  color: #008b94;
+}
+
 .projeto-subtitulo {
   font-size: 1.125rem;
   line-height: 1.1;
