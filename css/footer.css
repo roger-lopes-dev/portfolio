@@ -29,19 +29,19 @@
 .footer-contato li a {
   display: flex;
   align-items: center;
+  gap: 10px;
   text-decoration: none;
   color: #fff;
 }
 
 .footer-contato li a img {
-  position: absolute;
   width: 24px;
   height: 24px;
-  margin-left: -30px;
 }
 
 .footer-copy {
   display: flex;
+  gap: 10px;
   grid-column: 1 / -1;
   font-size: 1.125rem;
   color: #ffffff;
@@ -51,7 +51,6 @@
 .footer-copy img {
   width: 24px;
   height: 24px;
-  margin-right: 5px;
 }
 
 @media (max-width: 800px) {
@@ -62,14 +61,8 @@
   .footer-contato li {
     font-size: 1.5rem;
   }
-  .footer-contato li a {
-    display: block;
-  }
   .footer-contato li a img {
-    position: relative;
     width: 20px;
     height: 20px;
-    right: -30px;
-    margin-bottom: 5px;
   }
 }
