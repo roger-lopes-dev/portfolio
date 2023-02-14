@@ -6,19 +6,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Desenvolvedor Front End e UX/UI Designer Localizado em Conchal-SP">
   <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
-  <link rel="stylesheet" href="./css/style.min.css">
+  <link rel="stylesheet" href="./css/style.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Tourney:wght@700&display=swap" rel="stylesheet">
-  <title>Roger - Desenvolvedor e UX/UI Designer</title>
+  <title>Roger - Desenvolvedor Front-End</title>
 </head>
 
 <body>
   <header class="header">
     <img class="logo" src="./img/Logo.svg" alt="Roger" width="144" height="43">
-    <nav>
-      <ul class="header-menu">
+    <button class="btn-mobile" id="btn-mobile">Menu</button>
+    <nav id="nav">
+      <ul class="header-menu" id="menu">
         <li><a href="#experiencia">Experiência</a></li>
         <li><a href="#formacao">Formação</a></li>
         <li><a href="#contato">Contato</a></li>
@@ -29,7 +30,7 @@
   <main class="container introducao">
     <img src="./img/img-perfil.jpg" alt="Roger Foto" width="360" height="520">
     <div>
-      <h1>Desenvolvedor<br>Front End &<br>UX/UI Designer</h1>
+      <h1>Desenvolvedor<br>Front End</h1>
       <p>Localizado em Conchal-SP 🏠</p>
     </div>
   </main>
@@ -116,7 +117,7 @@
       <h2 class="subtitulo">Formação</h2>
 
       <div>
-        <p class="formacao-texto">Estudante de <strong>Análise e Desenvolvimento de Sistemas</strong>🎓 concluíndo a formação. Me especializando e me mantendo atualizado em cursos intensivos de <strong>front end</strong> e <strong>web design</strong>.
+        <p class="formacao-texto">Formado em <strong>Análise e Desenvolvimento de Sistemas</strong>🎓. Me especializando e me mantendo atualizado em cursos intensivos de <strong>front end</strong> e <strong>web design</strong>.
         </p>
 
         <ul class="formacao-lista">
@@ -138,6 +139,7 @@
             <ul>
               <li>HTML e CSS para iniciantes <span>24h</span></li>
               <li>UI Design para Iniciantes <span>17h</span></li>
+              <li>JavaScript para iniciantes <span>40h</span></li>
             </ul>
           </div>
 
@@ -158,6 +160,8 @@
       <p class="footer-copy"> <img src="./img/icone-copyRight.svg" alt=""> Roger. Alguns direitos reservados.</p>
     </div>
   </footer>
+
+  <script src="javascript/script.js"></script>
 
 </body>
 
